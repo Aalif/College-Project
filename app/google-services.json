@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "633124011364",
+    "firebase_url": "https://reduce-food-waste1.firebaseio.com",
+    "project_id": "reduce-food-waste1",
+    "storage_bucket": "reduce-food-waste1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633124011364:android:2cb5feebcbe7498f",
+        "android_client_info": {
+          "package_name": "com.example.ak.savefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633124011364-vjjeuc7pais9gn7q8tt8fge1fb849nh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ak.savefood",
+            "certificate_hash": "5559dc31404a793357ad166e15450b3d87e1b273"
+          }
+        },
+        {
+          "client_id": "633124011364-osqkd9lo2ffl59lnld1ser0psn9851u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChk2Lmvj4F78Lz4UDx1HhH0G5IXjeuUdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633124011364-osqkd9lo2ffl59lnld1ser0psn9851u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

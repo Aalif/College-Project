@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    tools:context="com.example.ak.savefood.PostActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/donationimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/add_btn"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/donationtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_line"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="Enter Donation Title"
+        android:layout_below="@id/donationimage"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+       />
+
+    <EditText
+        android:id="@+id/donationdiscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="@drawable/input_line"
+        android:padding="10dp"
+        android:hint="Enter Donation Discription"
+        android:layout_below="@id/donationtitle"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:id="@+id/donationaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:background="@drawable/input_line"
+        android:padding="10dp"
+        android:hint="Enter Your Address"
+        android:layout_below="@id/donationdiscription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:id="@+id/donationphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_line"
+        android:ems="10"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:layout_below="@id/donationaddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_donation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/donationphonenumber"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="Post Your Donation"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        />
+    </RelativeLayout>
+</ScrollView>
