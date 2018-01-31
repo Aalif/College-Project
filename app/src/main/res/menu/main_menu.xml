@@ -8,6 +8,9 @@
     <item android:id="@+id/action_settings"
         android:title="Settings"
         app:showAsAction="never" />
+    <item android:id="@+id/action_mypost"
+        android:title="My Post"
+        app:showAsAction="never" />
     <item android:id="@+id/action_logout"
         android:title="Log Out"
         app:showAsAction="never" />

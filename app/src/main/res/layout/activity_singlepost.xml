@@ -74,5 +74,17 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             />
+        <Button
+            android:id="@+id/btnremove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Post"
+            android:textColor="#ffff"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:layout_below="@id/singledonationphonenumber"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
     </RelativeLayout>
 </ScrollView>
